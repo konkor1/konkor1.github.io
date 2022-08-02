@@ -175,6 +175,13 @@ img.mfp-img{width:auto;max-width:100%;height:auto;display:block;line-height:0;bo
 0%{transform:rotate(0)}
 100%{transform:rotate(359deg)}
 }
+/* Вставка лого начало */
+.brand{line-height:1.6;color:#fff;display:inline-block;}
+a.brand:hover,a.brand:focus{text-decoration:none;color:#fff;}
+.brand-info{display:inline-block;}
+.brand-name1{color:#f2f6f7;font-weight:600;font-size:1.714rem;line-height:1.3;}
+.brand-text{color:#f2f6f7;font-size:.8rem;font-weight:600;margin-top:-.3rem; text-align: center;}
+/* Вставка лого конец */
 .fa-rotate-90{transform:rotate(90deg)}
 .fa-rotate-180{transform:rotate(180deg)}
 .fa-rotate-270{transform:rotate(270deg)}
@@ -918,11 +925,11 @@ body input:required:valid,body textarea:required:valid{border-color:green}
 body input:focus:required:invalid,body textarea:focus:required:invalid{border-color:red}
 .img-responsive{display:block;height:auto;max-width:100%}
 .img-responsive.img-width{width:100%}
-.header_fon{min-height:100vh;background:url(../img/hero/1.jpg) center center/cover no-repeat fixed #000}
+.header_fon{min-height:100vh;background:url(../img/hero/Olga_4-5.jpg) center center/cover no-repeat fixed #000}
 .header_allpage{margin:0;padding:0;background-color:#000}
 .header_allpage .topline{position:static;background-color:#000}
 .topline{transition:.55s;position:absolute;left:0;top:0;z-index:100;border-bottom:1px solid #eeeeee00;width:100%}
-.topline.fixed{position:fixed;background-color:#fff;-webkit-animation:1s fixHeader;animation:1s fixHeader}
+.topline.fixed{position:fixed;background-color:#5493BD;-webkit-animation:1s fixHeader;animation:1s fixHeader}
 @-webkit-keyframes fixHeader{
 0%{opacity:0;transform:translateY(-100%)}
 100%{opacity:1;transform:translateY(0)}
@@ -934,7 +941,7 @@ body input:focus:required:invalid,body textarea:focus:required:invalid{border-co
 .ham-burger .fa{display:none;border-radius:3px;width:30px;height:27px;font-size:20px;line-height:27px;text-align:center;color:#000;background-color:#fff;cursor:pointer}
 .topline.fixed a.logo{color:#000}
 .topline.fixed a.logo::before{background-color:#000}
-.topline.fixed .navbar ul li a{color:#000}
+.topline.fixed .navbar ul li a{color:#ffffff}
 .topline.fixed .navbar ul li a::before{background-color:#febd01}
 .topline.fixed .navbar ul li.active a::before{content:"";height:3px;background-color:#6b0b16}
 .topline_wrap{display:flex;align-items:center;justify-content:space-between}
@@ -944,7 +951,7 @@ a.logo::before{content:"";position:absolute;left:0;bottom:0;width:100%;height:3p
 .navbar{margin:0;padding:0}
 .navbar ul{margin:0;padding:0;font-size:0}
 .navbar ul li{display:inline-block}
-.navbar ul li a{transition:.2s;position:relative;display:inline-block;padding:15px;font-size:15px;text-decoration:none;color:#fff}
+.navbar ul li a{transition:.2s;position:relative;display:inline-block;padding:15px;font-size:15px;text-decoration:none;color:#000}
 .navbar ul li a::before{transition:.2s;content:"";position:absolute;left:0;bottom:0;width:0;height:3px;background-color:#fff}
 .navbar ul li a:hover::before{width:100%}
 .navbar ul li.active a::before{content:"";position:absolute;left:0;bottom:0;width:100%;height:3px;background-color:#6b0b16}
