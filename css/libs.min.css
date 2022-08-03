@@ -925,7 +925,7 @@ body input:required:valid,body textarea:required:valid{border-color:green}
 body input:focus:required:invalid,body textarea:focus:required:invalid{border-color:red}
 .img-responsive{display:block;height:auto;max-width:100%}
 .img-responsive.img-width{width:100%}
-.header_fon{min-height:100vh;background:url(../img/hero/Olga_4-5.jpg) center center/cover no-repeat fixed #000}
+.header_fon{min-height:100vh;background:url(../img/hero/Olga_4-6.jpg) center center/cover no-repeat fixed #000}
 .header_allpage{margin:0;padding:0;background-color:#000}
 .header_allpage .topline{position:static;background-color:#000}
 .topline{transition:.55s;position:absolute;left:0;top:0;z-index:100;border-bottom:1px solid #eeeeee00;width:100%}
